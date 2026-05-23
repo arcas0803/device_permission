@@ -1,0 +1,40 @@
+name: device_permission
+description: "Cross-platform permission handling plugin for Flutter. Check and request permissions on Android, iOS, macOS, Windows, Linux, and Web."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.12.0
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  web: ^1.1.1
+  plugin_platform_interface: ^2.1.8
+  meta: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.arcas0803.device_permission
+        pluginClass: DevicePermissionPlugin
+      ios:
+        pluginClass: DevicePermissionPlugin
+      linux:
+        pluginClass: DevicePermissionPlugin
+      macos:
+        pluginClass: DevicePermissionPlugin
+      windows:
+        pluginClass: DevicePermissionPluginCApi
+      web:
+        pluginClass: DevicePermissionWeb
+        fileName: device_permission_web.dart

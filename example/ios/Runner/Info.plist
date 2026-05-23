@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Device Permission</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>device_permission_example</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+
+	<!-- Calendar -->
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app needs calendar access to demonstrate permission handling.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>This app needs full calendar access to demonstrate permission handling.</string>
+	<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
+	<string>This app needs calendar write access to demonstrate permission handling.</string>
+
+	<!-- Camera -->
+	<key>NSCameraUsageDescription</key>
+	<string>This app needs camera access to demonstrate permission handling.</string>
+
+	<!-- Contacts -->
+	<key>NSContactsUsageDescription</key>
+	<string>This app needs contacts access to demonstrate permission handling.</string>
+
+	<!-- Location -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs location access while in use to demonstrate permission handling.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app needs background location access to demonstrate permission handling.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>This app needs location access to demonstrate permission handling.</string>
+
+	<!-- Media Library -->
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app needs media library access to demonstrate permission handling.</string>
+
+	<!-- Microphone -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs microphone access to demonstrate permission handling.</string>
+
+	<!-- Photos -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs photo library read access to demonstrate permission handling.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app needs photo library add-only access to demonstrate permission handling.</string>
+
+	<!-- Reminders -->
+	<key>NSRemindersUsageDescription</key>
+	<string>This app needs reminders access to demonstrate permission handling.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>This app needs full reminders access to demonstrate permission handling.</string>
+
+	<!-- Sensors / Motion -->
+	<key>NSMotionUsageDescription</key>
+	<string>This app needs motion sensor access to demonstrate permission handling.</string>
+	<key>NSFallDetectionUsageDescription</key>
+	<string>This app needs fall detection access to demonstrate permission handling.</string>
+
+	<!-- Speech Recognition -->
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This app needs speech recognition access to demonstrate permission handling.</string>
+
+	<!-- Bluetooth -->
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This app needs bluetooth access to demonstrate permission handling.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>This app needs bluetooth peripheral access to demonstrate permission handling.</string>
+
+	<!-- App Tracking Transparency -->
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This app needs tracking access to demonstrate permission handling.</string>
+
+	<!-- Siri / Assistant -->
+	<key>NSSiriUsageDescription</key>
+	<string>This app needs Siri access to demonstrate permission handling.</string>
+
+	<!-- Face ID -->
+	<key>NSFaceIDUsageDescription</key>
+	<string>This app needs Face ID access to demonstrate permission handling.</string>
+
+	<!-- HomeKit -->
+	<key>NSHomeKitUsageDescription</key>
+	<string>This app needs HomeKit access to demonstrate permission handling.</string>
+
+	<!-- Health -->
+	<key>NSHealthShareUsageDescription</key>
+	<string>This app needs health data sharing to demonstrate permission handling.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>This app needs health data updates to demonstrate permission handling.</string>
+
+	<!-- Local Network -->
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>This app needs local network access to demonstrate permission handling.</string>
+	<key>NSBonjourServices</key>
+	<array/>
+
+	<!-- Nearby Interaction -->
+	<key>NSNearbyInteractionAllowOnceUsageDescription</key>
+	<string>This app needs nearby interaction access to demonstrate permission handling.</string>
+
+	<!-- UIApplicationSceneManifest -->
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneClassName</key>
+					<string>UIWindowScene</string>
+					<key>UISceneConfigurationName</key>
+					<string>flutter</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

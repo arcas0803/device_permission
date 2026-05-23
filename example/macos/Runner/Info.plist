@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>$(PRODUCT_COPYRIGHT)</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+
+	<!-- Camera -->
+	<key>NSCameraUsageDescription</key>
+	<string>This app needs camera access to demonstrate permission handling.</string>
+
+	<!-- Microphone -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs microphone access to demonstrate permission handling.</string>
+
+	<!-- Location -->
+	<key>NSLocationUsageDescription</key>
+	<string>This app needs location access to demonstrate permission handling.</string>
+
+	<!-- Photos -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs photo library access to demonstrate permission handling.</string>
+
+	<!-- Contacts -->
+	<key>NSContactsUsageDescription</key>
+	<string>This app needs contacts access to demonstrate permission handling.</string>
+
+	<!-- Calendar -->
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app needs calendar access to demonstrate permission handling.</string>
+
+	<!-- Reminders -->
+	<key>NSRemindersUsageDescription</key>
+	<string>This app needs reminders access to demonstrate permission handling.</string>
+
+	<!-- Speech Recognition -->
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This app needs speech recognition access to demonstrate permission handling.</string>
+
+	<!-- Bluetooth -->
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This app needs bluetooth access to demonstrate permission handling.</string>
+
+	<!-- Media Library -->
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app needs media library access to demonstrate permission handling.</string>
+
+	<!-- Motion -->
+	<key>NSMotionUsageDescription</key>
+	<string>This app needs motion sensor access to demonstrate permission handling.</string>
+</dict>
+</plist>
