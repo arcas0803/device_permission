@@ -1,6 +1,6 @@
 name: device_permission
 description: "Cross-platform permission handling plugin for Flutter. Check and request permissions on Android, iOS, macOS, Windows, Linux, and Web."
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/arcas0803/device_permission
 repository: https://github.com/arcas0803/device_permission
 
